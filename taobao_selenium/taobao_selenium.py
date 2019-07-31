@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import TimeoutException
 from pyquery import PyQuery as pq
-from config import *
+from taobao_selenium.config import *
 import pymongo
 
 client = pymongo.MongoClient(MONGO_URL)
