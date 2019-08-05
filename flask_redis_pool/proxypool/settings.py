@@ -1,0 +1,15 @@
+# Redis Host
+HOST = 'localhost'
+# Redis PORT
+PORT = 6379
+
+PASSWORD = ""
+
+
+POOL_LOWER_THRESHOLD = 10
+POOL_UPPER_THRESHOLD = 100
+
+VALID_CHECK_CYCLE = 60
+POOL_LEN_CHECK_CYCLE = 20
+
+TEST_API = 'http://www.baidu.com'
