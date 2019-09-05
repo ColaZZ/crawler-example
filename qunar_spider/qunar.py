@@ -30,7 +30,7 @@ def begin():
             yield dep#出发城市
 
 
-def get_list(dep, item):
+def get_list(dep , item):
     """
     获取产品列表信息
     :param dep: 出发地
